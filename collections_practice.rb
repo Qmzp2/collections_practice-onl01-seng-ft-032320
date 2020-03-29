@@ -43,7 +43,7 @@ end
         words.each do |word|
           if word[1]
         else
-          word + "s"
+          word = word + "s"
         end
       end
     end
