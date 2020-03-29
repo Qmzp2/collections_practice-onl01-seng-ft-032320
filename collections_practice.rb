@@ -42,7 +42,7 @@ end
       def add_s(words)
         new_array = []
         words.each do |word|
-          if words[1]
+          if word == words[1]
         else
           new_array << word + "s"
         end
