@@ -43,6 +43,7 @@ end
         new_array = []
         words.each do |word|
           if word == words[1]
+            new_array << word
         else
           new_array << word + "s"
         end
