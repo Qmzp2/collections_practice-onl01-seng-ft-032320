@@ -44,7 +44,7 @@ end
         words.each do |word|
           if word[1]
         else
-          new_array = word + "s"
+          new_array << word + "s"
         end
       end
       new_array
