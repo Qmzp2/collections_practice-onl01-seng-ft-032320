@@ -40,12 +40,14 @@ end
       end
       
       def add_s(words)
+        new_array = []
         words.each do |word|
           if word[1]
         else
-          word = word + "s"
+          new_array = word + "s"
         end
       end
+      new_array
     end
           
           
